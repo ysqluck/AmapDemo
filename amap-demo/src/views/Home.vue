@@ -1,18 +1,21 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <PointerAmap/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import PointerAmap from '../components/Amap-scatterPointer/index'
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    PointerAmap
   }
 }
 </script>
+<style scoped lang="scss">
+.home{
+  width:100%;
+  height:100%
+}
+</style>
