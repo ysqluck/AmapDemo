@@ -1,15 +1,18 @@
 <template>
   <div class="home">
-    <PointerAmap/>
+    <!-- <PointerAmap/> -->
+    <Liner/>
   </div>
 </template>
 
 <script>
-import PointerAmap from '../components/Amap-scatterPointer/index'
+// import PointerAmap from '../components/Amap-scatterPointer/index'
+import Liner from '../components/Amap-line/index'
 export default {
   name: 'Home',
   components: {
-    PointerAmap
+    // PointerAmap,
+    Liner
   }
 }
 </script>
